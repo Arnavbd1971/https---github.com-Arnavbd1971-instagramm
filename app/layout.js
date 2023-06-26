@@ -13,6 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="bg-gray-50 h-screen">
+        {/* session  */}
         <SessionProvider>{children}</SessionProvider>
       </body>
     </html>
